@@ -2,5 +2,5 @@ Latihan GITHUB
 - kosisten belajar sehabis subuh 3x seminggu
 - Belajar terkait IT
 - Evaluasi 
-- membuat aplikasi yang bagus
 - kolaborasi dengan lebih banyak expert
+- bahsa pemograman php
