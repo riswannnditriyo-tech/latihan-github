@@ -1,11 +1,13 @@
 Rencana aplikasi 
 
-- javascript
+-javascript
  *Framework javascript
-  ^Angular
+  ^Vue
   ^React
  * Es6
--PHP Frameworks
-  ^Laravel
+-Struktur data base
+- PHP Frameworks
+  ^ Laravel
 -interview
 -record
+-Python
