@@ -1,0 +1,275 @@
+/* =====================================
+   GLOBAL
+===================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* =====================================
+   LOGIN PAGE
+===================================== */
+
+.login-page {
+    min-height: 100vh;
+
+    background: linear-gradient(
+        135deg,
+        #0d6efd,
+        #6f42c1
+    );
+}
+
+
+/* =====================================
+   LOGIN CARD
+===================================== */
+
+.login-card {
+    background: #ffffff;
+
+    border-radius: 18px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, 0.20);
+}
+
+
+/* =====================================
+   LOGIN HEADER
+===================================== */
+
+.login-header {
+    text-align: center;
+
+    padding: 35px 25px 25px;
+
+    background: #f8f9fa;
+}
+
+.login-icon {
+    font-size: 48px;
+
+    margin-bottom: 10px;
+}
+
+.login-header h2 {
+    margin-bottom: 5px;
+
+    font-weight: 700;
+
+    color: #212529;
+}
+
+.login-header p {
+    margin: 0;
+
+    color: #6c757d;
+}
+
+
+/* =====================================
+   LOGIN BODY
+===================================== */
+
+.login-body {
+    padding: 30px;
+}
+
+
+/* =====================================
+   FORM
+===================================== */
+
+.form-label {
+    font-weight: 600;
+
+    color: #343a40;
+}
+
+.form-control {
+    min-height: 48px;
+
+    border-radius: 10px;
+
+    border: 1px solid #ced4da;
+
+    padding: 10px 14px;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+
+    box-shadow:
+        0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+}
+
+
+/* =====================================
+   LOGIN BUTTON
+===================================== */
+
+.btn-login {
+    min-height: 48px;
+
+    border-radius: 10px;
+
+    background: #0d6efd;
+
+    color: #ffffff;
+
+    font-weight: 600;
+
+    border: none;
+
+    transition: 0.2s;
+}
+
+.btn-login:hover {
+    background: #0b5ed7;
+
+    color: #ffffff;
+
+    transform: translateY(-1px);
+}
+
+
+/* =====================================
+   ALERT
+===================================== */
+
+.alert {
+    border-radius: 10px;
+
+    font-size: 14px;
+}
+
+
+/* =====================================
+   FOOTER
+===================================== */
+
+.login-footer {
+    text-align: center;
+
+    padding: 15px;
+
+    background: #f8f9fa;
+
+    color: #6c757d;
+}
+
+
+/* =====================================
+   RESPONSIVE
+===================================== */
+
+@media (max-width: 576px) {
+
+    .login-body {
+        padding: 25px 20px;
+    }
+
+    .login-header {
+        padding: 30px 20px 20px;
+    }
+
+    .login-header h2 {
+        font-size: 24px;
+    }
+}
+
+/* =====================================
+   ADMIN DASHBOARD
+===================================== */
+
+.admin-body {
+    background-color: #f5f7fb;
+    min-height: 100vh;
+}
+
+
+/* Navbar */
+
+.navbar-brand {
+    letter-spacing: 0.3px;
+}
+
+.navbar .nav-link {
+    margin-left: 5px;
+    transition: 0.2s;
+}
+
+.navbar .nav-link:hover {
+    opacity: 0.8;
+}
+
+
+/* Dashboard Card */
+
+.dashboard-card {
+    border-radius: 15px;
+    transition: 0.2s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-3px);
+}
+
+
+/* Icon Statistik */
+
+.dashboard-icon {
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 12px;
+
+    background-color: #e7f0ff;
+
+    font-size: 24px;
+
+    color: #0d6efd;
+}
+
+
+/* Table */
+
+.table {
+    margin-bottom: 0;
+}
+
+.table th {
+    white-space: nowrap;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .dashboard-card {
+        margin-bottom: 5px;
+    }
+
+    .table {
+        font-size: 14px;
+    }
+
+}
