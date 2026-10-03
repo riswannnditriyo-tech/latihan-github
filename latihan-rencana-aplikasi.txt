@@ -1,0 +1,6 @@
+Rencana aplikasi 
+
+- php
+-javascript
+-interview
+-record
