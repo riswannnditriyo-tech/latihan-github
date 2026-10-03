@@ -1,2 +1,2 @@
 # latihan-github
-Repositori untuk menyimpan rencana COBA selanjutnya
+Repositori untuk menyimpan rencana LATIHAN selanjutnya
