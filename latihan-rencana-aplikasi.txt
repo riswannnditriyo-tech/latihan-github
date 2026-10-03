@@ -1,9 +1,11 @@
 Rencana aplikasi 
 
-- php
- *Framework php
+- javascript
+ *Framework javascript
+  ^Angular
+  ^React
  * Es6
--Struktur data dasae
--javascript
+-PHP Frameworks
+  ^Laravel
 -interview
 -record
