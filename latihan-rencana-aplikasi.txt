@@ -1,6 +1,8 @@
 Rencana aplikasi 
 
 - php
+ *Framework php
+ * Es6
 -javascript
 -interview
 -record
