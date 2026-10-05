@@ -4,6 +4,7 @@ Rencana aplikasi
  *Framework javascript
   ^Vue
   ^React
+  ^Angular
  * Es6
 -Struktur data base
 - PHP Frameworks
